@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "wasmbuild": "deno run -A https://deno.land/x/wasmbuild@0.8.2/main.ts",
+    "serve": "deno run --allow-net --allow-read=. https://deno.land/std@0.144.0/http/file_server.ts"
+  }
+}
